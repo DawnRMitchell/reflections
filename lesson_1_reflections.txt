@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It helped me see which lines were changed and how those changes were implemented in the new file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It can help you figure out when you might have changed something, reducing the amount of time you have to go searching your files for a change.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+It is nice to manually save because you can save when you accomplished a specific task. However, it is also beneficially when versions are automatically saved because if your computer crashes after you have done a significant amount of work on a task but did not manually save in a while, you will not need to go back too far to get back to work.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Saving multiple files can be extremely useful when parts of a file refer to others in order to function correctly. For example, if you change the name of a class in an HTML document, it would be useful to change the name of the class in the CSS file as well. Other version control systems like Google Docs probably assume that the files you are using are not connected in some deep way and are better for files that do not have dependencies on others.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log allows you to see all of the commits you have made and the comments for those commits. This will allow you to track the changes you have made to your code. git diff allows you to check two different versions of a file so that you can see what specific changes were made to the code between them. This is extremely useful if a feature that used to work is not working properly anymore because you can see what changes may have caused the failure.
+
+How might using version control make you more confident to make changes that could break something?
+
+Version control allows you to go back to a previous version and see what may have caused something to break in a newer version. Because you have the added security of a version that has the feaure working, you can easily go back to see what made it work correctly and don't have to worry about never finding out what exactly might have broken the feature.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I will be using Git to learn version control best practices and so that I can use it and Github to collaborate and share my code.
