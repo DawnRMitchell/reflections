@@ -13,3 +13,7 @@ Branches might be used when want to try out experimental changes that might affe
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It's very useful to have a local copy of the last known state of the remote because if you made changes to your local branch, git will let you know that you are ahead of the local remote copy. If you made changes to your local branch and a collaborator made changes to the remote, you can fetch those changes your collaborator made and deal with any conflicts without it interfering with your code.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I think it would be harder to collaborate without Git/GitHub generally because it is much more difficult to keep track of changes. Two different people could have made totally different changes to their files without keeping track of logical changes, making it very difficult to deal with later. You may be able to come up with another way to track changes, like saving multiple versions of files after certain changes, but Git/GitHub seems to streamline the process much more. Also, pull requests make it much easier to ask someone for comments highlighting just the changes you have made in your last logical change.
